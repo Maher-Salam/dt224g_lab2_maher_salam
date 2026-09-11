@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+        <style>
+            #nyhet {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            footer {
+            
+            margin-top: 54vh;
+
+            text-align: center;
+            
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--startmeny-->
+        <nav>
+            <ul>
+
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="hobby.html">Min Hobby</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+
+            </ul>
+        </nav>
+    
+        </header>
+        
+        <main>
+            
+            <h1>Kontaktsida</h1>
+            <P>Välkommen till kontakt sidan du kan fylla i formuläret nedan eller kontakta mig direkt på <a href="mailto:masa2622@student.miun.se">masa2622@student.miun.se</a></P>
+                        
+                            <!--formulär-->
+            <form action="action.html" method="get">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" placeholder="Namn Efternamn" required>
+               
+                <br>
+
+                <label for="mail">Mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="namn@example.com" required>
+               
+                <br>
+
+                <label>
+                    <input type="checkbox" id="nyhet" name="nyhet">
+                   Prenumerera på Barcelonas nyhetsbrev
+                </label>
+
+                <br>
+
+                <select>
+                    <option>Om mig</option>
+                    <option>Min hobby</option>
+                    <option>Nyhetsbrev</option>
+                </select>
+
+                <br>
+
+                <label for="Meddelande">Meddelande:</label>
+
+                <br>
+
+                <textarea name="Meddelande" id="Meddelande" rows="4" cols="20"></textarea>
+
+                <br>
+
+                <button type="submit">Skicka</button>
+            </form>
+        </main>
+        <footer>
+                <p>© 2026 Maher Salam</p>
+        </footer>
+    </body>
+</html>
